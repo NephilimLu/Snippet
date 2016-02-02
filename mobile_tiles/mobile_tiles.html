@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mobile Tiles</title>
+    <link rel="stylesheet" type="text/css" href="css/tiles.css">
+</head>
+
+<body>
+    <div id="firstweb">
+        <div class="fircontent">
+            <div class="topgif">
+                <img src="images/logo.gif" style="width:35%" />
+                <div id="gear" onclick="showweb()"></div>
+            </div>
+            <div id="picwall">
+            </div>
+            <div>
+                <img src="images/ads.jpg" style="width:100%" />
+            </div>
+        </div>
+    </div>
+    <div id="secondweb">
+        <div class="seccontent" style="background-color:white;">
+            <div style="padding-top:30px">
+                <span class="personalize">Personalize</span>
+                <span class="done" onclick="hideweb()">Done</span>
+                <br>
+                <div class="declare">Tap the check marks to Add/Remove the categories from your Home Screen.Tap and hold the <img src="images/stack.png" />to reorder category tiles</div>
+            </div>
+            <div class="choosehead">Want More Local News?Tap Here</div>
+            <div id="titlelists"></div><br>
+            <div class="footer">
+            	<span class = "downnav">Categories</span>
+            	<span class = "downnav">Report News To AP</span>
+            	<span class = "downnav">Settings</span>
+            </div>
+        </div>
+    </div>
+    <!-- Insert in custom scripts tags -->
+    <script src="js/vendors/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/vendors/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
+    <!-- Insert in custom scripts -->
+    <script type="text/javascript" src="js/custom/tiles.js"></script>
+    <script type="text/javascript" src="js/custom/helpers.js"></script>
+</body>
+
+</html>

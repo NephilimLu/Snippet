@@ -1,0 +1,146 @@
+ body {
+     margin: 0px;
+     background-color: #666666;
+ }
+ 
+ #firstweb {
+     background-color: #666666;
+     background-repeat: repeat;
+     height: 1910px;
+     margin: 0px;
+ }
+ 
+ #secondweb {
+     background-color: #DDDDDD;
+     height: 100%;
+     display: none;
+ }
+ 
+ .fircontent {
+     width: 800px;
+     height: 1910px;
+     margin: 0px auto;
+     text_align: center;
+ }
+ 
+ .seccontent {
+     width: 800px;
+     height: 100%;
+     margin: 0px auto;
+     text_align: center;
+ }
+ 
+ #gear {
+     width: 48px;
+     height: 46px;
+     display: block;
+     background-image: url(../images/gear.png);
+     float: right;
+     margin: 20px 40px;
+     cursor: pointer;
+ }
+ 
+ #gear:hover {
+     background-image: url(../images/gear_h.png);
+ }
+ 
+ .topgif {
+     text-align: left;
+ }
+ 
+ .wallpic {
+     float: left;
+     width: 24.7%;
+     padding: 1px;
+     height: 198px;
+     border-bottom-width: 2px;
+     border-color: red;
+ }
+ 
+ .personalize {
+     color: navy;
+     font-size: 40px;
+     font-family: Candara;
+     font-weight: bold;
+     margin-left: 20px;
+ }
+ 
+ .done {
+     float: right;
+     margin-right: 20px;
+     font-family: Candara;
+     color: white;
+     font-size: 30px;
+     background-color: lightskyblue;
+     padding: 5px;
+     opacity: 0.6;
+     cursor: pointer;
+     border-radius: 5%;
+ }
+ 
+ .done:hover {
+     opacity: 1.0;
+ }
+ 
+ .declare {
+     color: navy;
+     margin: 0px auto;
+     text-align: center;
+     padding: 30px;
+     font-family: Candara;
+     font-size: 20px;
+     border-bottom: 1px solid navy;
+ }
+ 
+ .choosehead {
+     color: navy;
+     margin: 0px auto;
+     text-align: center;
+     padding: 20px;
+     font-family: Candara;
+     font-size: 22px;
+     border-bottom: 1px solid navy;
+ }
+ 
+ .listtitle {
+     padding-bottom: 15px;
+     font-family: Candara;
+     margin: 5px 10px;
+     border-bottom: 1px solid navy;
+     cursor: default;
+ }
+ 
+ .stack {
+     margin-top: 5px;
+     float: right;
+     cursor: pointer;
+ }
+ 
+ .check {
+     margin-top: 5px;
+     cursor: pointer;
+ }
+ 
+ .footer {
+     background-color: black;
+     margin: 0px auto;
+     text-align: center;
+     width: 800px;
+     height: 50px;
+     padding-top: 30px;
+ }
+ 
+ .downnav {
+     font-family: Candara;
+     color: white;
+     font-size: 18px;
+     background-color: deepskyblue;
+     padding: 15px;
+     border-radius: 5%;
+     opacity: 0.8;
+     cursor: pointer;
+ }
+ 
+ .downnav:hover {
+     opacity: 1.0;
+ }
